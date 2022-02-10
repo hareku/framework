@@ -2889,7 +2889,7 @@ __metadata:
     "@nuxt/schema": ^3.0.0
     "@types/lodash.template": ^4
     "@types/semver": ^7
-    c12: ^0.1.1
+    c12: ^0.1.2
     consola: ^2.15.3
     defu: ^5.0.1
     globby: ^13.1.1
@@ -3053,7 +3053,7 @@ __metadata:
   dependencies:
     "@types/lodash.template": ^4
     "@types/semver": ^7
-    c12: ^0.1.1
+    c12: ^0.1.2
     create-require: ^1.1.1
     defu: ^5.0.1
     jiti: ^1.12.15
@@ -4277,10 +4277,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.11.22":
-  version: 16.11.22
-  resolution: "@types/node@npm:16.11.22"
-  checksum: 9d879b9b0427e21a11e3162917553d5bc3c7d68d1ef4aa631512144801fe59bc3b4da5965e7ea7c2db99394487b543d4f2499b318e12392574802ac4f975b7c4
+"@types/node@npm:^16.11.23":
+  version: 16.11.23
+  resolution: "@types/node@npm:16.11.23"
+  checksum: b2a366a54572086dcfcef7fb30167c021a068f9fba49401668daecb206e1c9f83f99af3ec02b05b54753d935ffd9881f8e11b57f5cf5b429fe035a636573950b
   languageName: node
   linkType: hard
 
@@ -6806,6 +6806,21 @@ __metadata:
     pathe: ^0.2.0
     rc9: ^1.2.0
   checksum: 628bd42845926249f9dfbaf14371793de72c4b9fa764e8a635ae56f5e67c99d765f8ea09ac44e3876e334095a627ca24d7029ca5d6254829998b9fab67927460
+  languageName: node
+  linkType: hard
+
+"c12@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "c12@npm:0.1.2"
+  dependencies:
+    defu: ^5.0.1
+    dotenv: ^14.3.2
+    gittar: ^0.1.1
+    jiti: ^1.12.14
+    mlly: ^0.4.1
+    pathe: ^0.2.0
+    rc9: ^1.2.0
+  checksum: 1977c1de00603a68b0ce0d825ec809afbf6443179dbf6cc2615cc050046dc8e43faa7aca30b538c7f177187fad23031fa8e263a427d9fc06e8d35fbdd9d5fe38
   languageName: node
   linkType: hard
 
@@ -15062,7 +15077,7 @@ __metadata:
     "@nuxtjs/eslint-config": ^7.0.0
     "@nuxtjs/eslint-config-typescript": ^7.0.2
     "@types/jsdom": ^16
-    "@types/node": ^16.11.22
+    "@types/node": ^16.11.23
     "@types/object-hash": ^2
     "@unocss/reset": ^0.24.3
     esbuild: ^0.14.21
